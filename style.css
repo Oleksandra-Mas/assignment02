@@ -1,0 +1,131 @@
+body {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: rgba(187, 187, 187, 0.163);
+  box-shadow: 30px 15px 35px #8e8e8e95,
+    -30px -15px 35px rgba(142, 142, 142, 0.585);
+}
+p {
+  text-decoration: underline;
+}
+div p {
+  background-color: #f1f19e;
+}
+div h2 {
+  background-color: #9e9eff;
+}
+p,
+h2 {
+  font-size: 25px;
+}
+div h2,
+p {
+  text-shadow: 1px 5px 5px crimson;
+}
+#test {
+  border: thick solid indigo;
+}
+#test p {
+  border: thick dashed darkorange;
+}
+#test p,
+h2 {
+  box-shadow: 10px 5px 5px rgb(255, 0, 128);
+}
+.www {
+  opacity: 0.6;
+}
+p.www {
+  color: rgb(255, 67, 99);
+}
+.test,
+.xxx {
+  padding-top: 50px;
+}
+p.test,
+.www {
+  padding-left: 50px;
+}
+#test p.www {
+  padding-right: 50px;
+}
+#test i {
+  color: rgb(176, 0, 216);
+}
+.www.xxx {
+  border: thick dotted blue;
+}
+p.test.xxx {
+  border: 10px double green;
+}
+.test.www.xxx {
+  background-color: green;
+}
+p > a {
+  background-color: #66fd66;
+}
+p > i {
+  background-color: rgb(27, 211, 183);
+}
+ul li {
+  background-color: rgb(251, 170, 211);
+}
+b ~ i {
+  display: block;
+}
+#test b ~ i {
+  color: rgb(255, 255, 255);
+}
+ul ~ p {
+  padding-bottom: 50px;
+}
+h1 ~ p {
+  box-shadow: 10px 5px 5px #4dff00;
+}
+#test h2 ~ p {
+  letter-spacing: 5px;
+}
+* {
+  font-family: fantasy;
+}
+p * i {
+  box-shadow: 15px -5px #ff7b00;
+}
+[title] {
+  margin-right: 100px;
+}
+p[title] {
+  margin-left: 100px;
+}
+p[title="title"] {
+  margin-top: 100px;
+}
+a[href^="#"] {
+  display: block;
+  margin-top: 100px;
+}
+a[href$=".html"] {
+  display: block;
+  margin-bottom: 50px;
+}
+p[title*="hello"] {
+  box-shadow: 25px 15px 5px #000000;
+}
+p[class^="top-"] {
+  margin-bottom: 100px;
+}
+ol li {
+  border: thin solid #32a1ce;
+}
+ol li:hover {
+  background-color: green;
+}
+.ol1 li:hover + li {
+  background-color: red;
+}
+.ol2 li:hover + li + li {
+  background-color: red;
+}
+.ol3 li:hover ~ li:not(:last-child) {
+  background-color: red;
+}
