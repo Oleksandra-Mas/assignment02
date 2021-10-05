@@ -1,9 +1,12 @@
 body {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
   background-color: rgba(187, 187, 187, 0.163);
   box-shadow: 30px 15px 35px #8e8e8e95,
     -30px -15px 35px rgba(142, 142, 142, 0.585);
+}
+pre {
+  white-space: pre-wrap;
 }
 p {
   text-decoration: underline;
